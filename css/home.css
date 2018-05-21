@@ -15,7 +15,7 @@ body{
         top: 40%;
         left: 50%;
         margin-right: -50%;
-        transform: translate(-50%, -50%)
+        transform: translate(-50%, -50%);
 }
 .header-section{
 	background-color:#dc3545;
@@ -110,9 +110,39 @@ body{
 	background: url("../images/footer-bg.jpg");
 	background-size: cover;
 	border-top: 30px solid #dc3545;
+  overflow: hidden;
 
 }
  
+.footer-sub-section div p{
+    color: #e1e1e1 !important;
+    text-align: center;
+
+}
+
+.footer-list{
+    color: #e1e1e1 !important;
+    text-align: center;
+}
+
+.footer-logo{
+   position: absolute;
+        /*top: 40%;*/
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -20%);
+}
+
+
+
+
+
+
+
+
+
+
+
 
  /*Extra small devices (portrait phones, less than 576px)*/
  
