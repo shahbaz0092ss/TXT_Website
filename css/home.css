@@ -1,0 +1,147 @@
+body{
+	height: 2000px;
+}
+.loader-container{
+	position: absolute;
+	background-color: #fff;
+	width: 98.75vw;
+	height: 100vh;
+	z-index: 9999;
+}
+.wrapper{
+}
+.loader-container img{
+	 position: absolute;
+        top: 40%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+.header-section{
+	background-color:#dc3545;
+	height: 30px; 
+
+}
+.navbar{
+		background-color: transparent !important;
+
+	}
+
+.nav-link{
+	font-weight: 500;	
+	padding: 20px !important;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+	color: #dc3545;
+}
+
+.banner-section{
+	height: 680px;
+
+}
+.map-svg{
+	zoom:90%;
+	padding-left: 115px;
+}
+.about-section{
+
+}
+
+.product-section{
+	border-top: 5px solid #dc3545;
+	border-bottom: 20px solid #dc3545;
+	position: relative;
+  z-index: 1;
+}
+
+.product-section:after {
+  background: inherit;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  -webkit-backface-visibility: hidden;
+}
+
+
+
+.market-section {
+  background: #dc3545;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.market-section:before {
+  background: inherit;
+  top: -25px;
+  content: '';
+  display: block;
+  height: 75%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(2.0deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+.market-section:after {
+  background: inherit;
+  bottom: -15px;
+  content: '';
+  display: block;
+  height: 70%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-2.0deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
+.more-products-section{
+	margin-top: 70px;
+	margin-bottom: 70px !important;
+}
+
+.footer-section{
+	background: url("../images/footer-bg.jpg");
+	background-size: cover;
+	border-top: 30px solid #dc3545;
+
+}
+ 
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+ 
+
+ /*No media query since this is the default in Bootstrap*/
+
+ 
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+ 
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+ 
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.navbar{
+		height: 80px;
+	}
+	.navbar-brand img{
+		width: 130px;
+	}
+}
+
+ 
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
